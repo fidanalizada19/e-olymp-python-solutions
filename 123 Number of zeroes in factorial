@@ -1,0 +1,9 @@
+n=int(input())
+s=0
+if n<5:
+    print(0)
+else:
+    while  n>=5:
+        n=n//5
+        s+=n
+print(s)
